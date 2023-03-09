@@ -1,0 +1,78 @@
+body {
+    background-color: #e2dfdf;
+    text-align: center;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "a b c"
+      "d e f"
+      "g h i"
+      "j k l"
+      "m n o"
+      "p q r"
+      "s t u";
+  }
+  
+  .a { 
+    grid-area: a; 
+    background-color: #ecbb29;
+    height: 50px;
+}
+  
+  .b { 
+    grid-area: b;
+    background-color: #60ea59;
+    height: 50px;
+}
+  
+  .c {
+     grid-area: c;
+     background-color: #ec6329;
+     height: 50px; 
+    }
+  
+  .d { grid-area: d; }
+  
+  .e { grid-area: e; }
+  
+  .f { grid-area: f; }
+  
+  .g { grid-area: g; }
+  
+  .h { grid-area: h; }
+  
+  .i { grid-area: i; }
+  
+  .j { grid-area: j; }
+  
+  .k { grid-area: k; }
+  
+  .l { grid-area: l; }
+  
+  .m { 
+    grid-area: m;
+ }
+  
+  .n { 
+    grid-area: n;
+ }
+  
+  .o { grid-area: o; }
+  
+  .p { grid-area: p; }
+  
+  .q { grid-area: q; }
+  
+  .r { grid-area: r; }
+  
+  .s { grid-area: s; }
+  
+  .t { grid-area: t; }
+  
+  .u { grid-area: u; }
+  
